@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LOGIN FORM</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script src="login.js"></script>
+</head>
+<body>
+<div class="form">
+	<div class="head">
+		<h1 ><b><big>Welcome</big></b></h1><br>
+		<p>Log in to your account <br> Already have an account? <b><big>Register</big></b></p> <br>
+		<p>By: <br>Muhammad Rafisyah Rizkiyawan<br>X RPL A</p><br>
+	</div>
+	<div class="login">
+		<form id = "form_id" method="post" name="myform" onsubmit="return false" >
+				<input type="text" class="box" placeholder="Username" id="username"><br><br>
+				<input type="text" class="box" placeholder="Email / Phone number" id="email"><br><br>
+				<input type="Password" class="box" placeholder="Password" id="password"><br><br>
+				<button type="submit" class="button" id="submit" onclick="validate()">Log In</button><br><br>
+			<div class="bot">
+				<label><input type="checkbox"><b>Remember me</b></label>
+				<a href="#"><b>Register</b></a>
+				<a href="#"><b>Forgot password</b></a>
+			</div>
+
+	</form>
+	</div>
+</div>
+</body>
+</html>

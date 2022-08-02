@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	height: 100vh;
+	background: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/cover-photo%2Cbackground%2C-technology-design-template-d7e7283570838b88ee81709a320e562a_screen.jpg?ts=1597391993);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.form{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px 25px;
+	width: 500px;
+	background-color: #E0FFFF;
+	box-shadow: 5px 9px rgba(255, 255, 255, .3);
+	border-radius: 17px;
+}
+.head{
+	border:8px solid #DC143C;
+	border-radius: 15px;
+	background-image: url(https://www.weblifeindia.in/img/hero-header3.jpg);
+	background-size: cover;
+	padding: 60px 30px;
+	text-align:left;
+	margin-bottom: 20px;
+	color: white;
+	font-size: 18px;
+}
+.head b{
+	color: #DC143C;
+}
+.head p{
+	font-size: small;
+}
+.login{
+	text-align: center;
+	padding:5px 50px 20px 50px;
+}
+.box{
+	width: 90%;
+	border-radius: 20px;
+	padding: 10px;
+	border: 5px solid #00FFFF;
+	font-size: 17px;
+	text-align: center;
+}
+.button{
+	font-size: 20px;
+	width: 80%;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: #0000FF;
+	color: white;
+}
+.bot {
+	padding-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 17px;
+	color: #DC143C;
+}
+.bot a{
+	color: #DC143C;
+	font-size: 17px;
+	text-decoration: none;
+} 
+
